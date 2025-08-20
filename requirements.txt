@@ -2,4 +2,6 @@ fastapi
 uvicorn
 jinja2
 pytest
-requests
+ruff
+httpx
+
