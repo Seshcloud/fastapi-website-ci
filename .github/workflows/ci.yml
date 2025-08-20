@@ -30,7 +30,7 @@ jobs:
           ruff format --check .
 
       - name: Run Tests
-        run: pytest
+        run: PYTHONPATH=$(pwd) pytest
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
